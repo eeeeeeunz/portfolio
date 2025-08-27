@@ -1,0 +1,845 @@
+@media screen and (max-width : 1920px) {
+    .fade-center {
+        display: block;
+    }
+
+    .fade-top {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 1440px) {
+    .mainpage>h2::before {
+        width: 600px;
+        height: 600px;
+    }
+
+    .mainpage>h3::before {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width : 1140px) {
+    .textbox h4 {
+        font-size: 1rem;
+    }
+
+    .textbox h3 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .textbox span {
+        font-size: 1rem;
+    }
+
+    .textbox>p {
+        margin-top: 10px;
+        margin-bottom: 50px;
+        font-size: 1rem;
+    }
+
+    .textbox .button-wrap>a {
+        width: 150px;
+        height: 50px;
+        font-size: 1rem;
+        line-height: 50px;
+    }
+
+    .app .swiper-pagination-yoeata {
+        position: absolute;
+        bottom: 5%;
+        left: -24%;
+        z-index: 5;
+
+    }
+
+    .app .swiper-pagination-edu {
+        position: absolute;
+        bottom: 5%;
+        left: -24%;
+        z-index: 5;
+
+    }
+}
+
+@media screen and (max-width : 1038px) {
+    .about h2 {
+        font-size: 8rem;
+    }
+
+    .about .product {
+        width: 200px;
+        height: 83px;
+        font-size: 2.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .mainpage>h2::before {
+        width: 500px;
+        height: 500px;
+    }
+
+    .mainpage>h3::before {
+        width: 300px;
+        height: 300px;
+    }
+
+    .mainpage>h3::after {
+        width: 100px;
+        height: 100px;
+    }
+
+    .about {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .coding .box {
+        padding: 40px 40px;
+        height: 400px;
+
+    }
+
+    .coding .exbtn {
+        position: absolute;
+        bottom: 40%;
+        left: 7%;
+    }
+
+    .coding .explainX {
+        font-size: 1.7rem;
+    }
+
+    .coding .explain>p {
+        margin-top: 15px;
+        font-size: 1.1rem;
+
+    }
+
+    .coding .explain>span {
+        font-size: 1rem;
+        color: #F8F7F5;
+    }
+
+    .coding .exbtn>a {
+        font-size: 1rem;
+    }
+
+    .app .appbox .ubox {
+        margin-bottom: 0px;
+        height: 700px;
+    }
+
+    .app .appbox {
+        margin: 0 50px;
+    }
+
+    .app .appwrap {
+        padding: 1px 0;
+    }
+
+    .app .appdi-yoeata,
+    .app .appdi-edu {
+        height: 470px;
+    }
+
+    .app .swiper-pagination-yoeata,
+    .app .swiper-pagination-edu {
+        bottom: 20%;
+        left: -23%;
+    }
+
+    .detail .page {
+        margin-left: 40px;
+        margin-right: 40px;
+        display: flex;
+        gap: 60px;
+        padding-bottom: 100px;
+    }
+
+    .detail .page .item p {
+        font-weight: 700;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .banner h3 {
+        font-size: 45px;
+        margin-top: -130px;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .fade-center {
+        display: none;
+    }
+
+    .fade-top {
+        display: block;
+    }
+
+    .about .blue {
+        background-color: #7ABFFF;
+        bottom: 0;
+        left: 20%;
+        transform: rotate(-10deg);
+        z-index: 6;
+    }
+
+    .about .pink {
+        background-color: #FCAADF;
+        bottom: 0;
+        left: 30%;
+        transform: rotate(6deg);
+        z-index: 6;
+    }
+
+    .about .purple {
+        background-color: #B6B8FA;
+        bottom: 0;
+        left: 37%;
+        transform: rotate(5deg);
+    }
+
+    .about .yellow {
+        background-color: #FFE27A;
+        bottom: 0;
+        left: 52%;
+        transform: rotate(-5deg);
+        z-index: 6;
+    }
+
+    .about .green {
+        background-color: #ADFCA5;
+        bottom: 0;
+        right: 22%;
+        transform: rotate(-12deg);
+    }
+
+}
+
+@media screen and (max-width : 884px) {
+    .app .appbox .ubox {
+        margin-bottom: 10px;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width : 820px) {
+    .profile .pro>h3 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #181818;
+    }
+
+    .profile .pro>h2 {
+        font-size: 6rem;
+        font-weight: 900;
+        color: #181818;
+        /* color: transparent;
+    -webkit-text-stroke: 1px #181818; */
+    }
+
+    .profile .info {
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        margin-top: auto;
+        padding-bottom: 10%;
+
+    }
+}
+
+@media screen and (max-width : 778px) {
+    .about h2 {
+        font-size: 6rem;
+    }
+
+    .about .product {
+        width: 160px;
+        height: 70px;
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    header .stick {
+        color: #181818;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    header .mail {
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 40px;
+        padding: 5px 10px;
+        gap: 10px;
+    }
+
+    header .mail>img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .mainpage>h2::before {
+        width: 400px;
+        height: 400px;
+    }
+
+    .mainpage>h3::before {
+        width: 250px;
+        height: 250px;
+    }
+
+    .mainpage>h3::after {
+        width: 100px;
+        height: 100px;
+    }
+
+    .mainpage .wheel img {
+        width: 246px;
+        height: 242px;
+    }
+
+    .profile .info {
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        padding-bottom: 10%;
+        margin-top: 20px;
+    }
+
+    .profile .info>div {
+        font-size: 1.2rem;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .profile .info>div p {
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+
+    .profile .info>div p:first-child {
+        margin-top: 2rem;
+    }
+
+    .coding>h2,
+    .app h2,
+    .detail>h2,
+    .banner>h2 {
+        font-size: 3.2rem;
+    }
+
+    .banner h3 {
+        font-size: 40px;
+
+    }
+
+    .coding .box {
+        padding: 40px 40px;
+        height: 300px;
+
+    }
+
+    .coding .exbtn {
+        position: absolute;
+        bottom: 18%;
+        left: 7%;
+    }
+
+    .app .appbox .ubox {
+        margin-bottom: 0px;
+        height: 600px;
+    }
+
+    .app .appdi-yoeata,
+    .app .appdi-edu {
+        height: 390px;
+    }
+
+    .app .swiper-pagination-yoeata,
+    .app .swiper-pagination-edu {
+        bottom: 35%;
+        left: -27%;
+    }
+
+    .app .textbox {
+        position: relative;
+    }
+
+    .textbox .button-wrap {
+        position: absolute;
+        bottom: 7%;
+        /* left: 50%; */
+        right: 13%;
+        /* transform: translateX(-50%) */
+    }
+
+    .textbox .button-wrap>a {
+        width: 250px;
+    }
+
+
+    .detail .page {
+        margin-left: 30px;
+        margin-right: 30px;
+        gap: 20px;
+    }
+
+    .detail .page .detailpage {
+        height: 360px;
+    }
+
+    /* form */
+    header .mailing {
+        width: 50%;
+    }
+
+    header .mailing h1 {
+        font-size: 1rem;
+    }
+
+    header .mailing p {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media screen and (max-width : 670px) {
+    .coding .box {
+        flex-direction: column;
+        height: 484px;
+    }
+
+    .coding .site {
+        width: 100%;
+
+    }
+
+    /* .mobile {
+        display: inline;
+    } */
+
+    .coding .explainX {
+        width: 100%;
+    }
+
+    .coding .explain>span {
+        display: none;
+    }
+
+    .coding .explain>p {
+        display: none;
+    }
+
+    .coding .exbtn {
+        position: absolute;
+        bottom: 70%;
+        left: 7%;
+    }
+
+    .detail .page {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .detail .page .item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 640px) {
+    .mainpage>h2::before {
+        height: 350px;
+    }
+
+    .mainpage>h3::before {
+        height: 200px;
+    }
+
+    .profile .pro {
+        margin: 70px;
+    }
+
+    .coding .box {
+        padding: 30px;
+        gap: 20%;
+    }
+
+    .coding .exbtn {
+        bottom: 71%;
+    }
+
+    .coding .exbtn>a {
+        width: 250px;
+
+    }
+
+    .app .appbox .ubox {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .app .appdi-yoeata {
+        width: 400px;
+        height: 400px;
+    }
+
+    .app .appdi-edu {
+        width: 400px;
+        height: 400px;
+    }
+
+    .app .swiper-pagination-yoeata {
+        bottom: 35%;
+        left: 0%;
+    }
+
+    .app .swiper-pagination-edu {
+        bottom: 35%;
+        left: 0%;
+    }
+
+    .app .textbox {
+        text-align: center;
+    }
+
+    .textbox h4 {
+        font-size: 0.8rem;
+    }
+
+    .textbox h3 {
+        font-size: 1.7rem;
+        margin-bottom: 20px;
+    }
+
+    .textbox span {
+        font-size: 0.8rem;
+    }
+
+    .textbox>p {
+        display: none;
+    }
+
+    .textbox span {
+        display: none;
+    }
+
+    .textbox .button-wrap {
+        bottom: -60%;
+    }
+
+    .textbox .button-wrap>a {
+        width: 130px;
+        height: 50px;
+        font-size: 0.9rem;
+        line-height: 50px;
+    }
+
+}
+
+@media screen and (max-width : 510px) {
+    .profile .info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .coding .exbtn {
+        width: 100%;
+    }
+
+    .tab .list {
+        width: 350px;
+        height: 40px;
+        border-radius: 10px;
+        margin: 10px auto;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .tab .list li button {
+        font-size: 0.8rem;
+    }
+
+    .banner h3 {
+        font-size: 50px;
+        text-align: center;
+        margin-top: -150px;
+        z-index: 55;
+        position: relative;
+        padding-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header .stick {
+        color: #181818;
+        font-size: 1.3rem;
+        font-weight: 800;
+    }
+
+    header .mail {
+        font-size: 0.8rem;
+        font-weight: 600;
+        border-radius: 40px;
+        padding: 5px 10px;
+        gap: 6px;
+    }
+
+    header .mail>img {
+        width: 12px;
+        height: 12px;
+    }
+
+
+    .mainpage>h2 {
+        font-size: 3.5rem;
+    }
+
+    .mainpage>h3 {
+        font-size: 2.3rem;
+    }
+
+    .mainpage>h2::before {
+        height: 300px;
+        top: -5%;
+        left: -25%;
+    }
+
+    .mainpage>h3::before {
+        height: 200px;
+        top: 15%;
+        right: 15%;
+    }
+
+    .mainpage>h3::after {
+        animation: round 15s infinite linear;
+    }
+
+    .about h2 {
+        font-size: 4.5rem;
+    }
+
+    .about .product {
+        width: 150px;
+        height: 55px;
+        font-size: 1.3rem;
+    }
+
+    .about .blue {
+        background-color: #7ABFFF;
+        bottom: 90%;
+        left: 10%;
+        transform: rotate(-10deg);
+        z-index: 6;
+    }
+
+    .about .pink {
+        background-color: #FCAADF;
+        bottom: 75%;
+        left: 30%;
+        transform: rotate(6deg);
+        z-index: 6;
+    }
+
+    .about .purple {
+        background-color: #B6B8FA;
+        bottom: 55%;
+        left: 15%;
+        transform: rotate(5deg);
+    }
+
+    .about .yellow {
+        background-color: #FFE27A;
+        bottom: 62%;
+        left: 52%;
+        transform: rotate(-5deg);
+        z-index: 6;
+    }
+
+    .about .green {
+        background-color: #ADFCA5;
+        bottom: 44%;
+        right: 22%;
+        transform: rotate(-12deg);
+    }
+
+    .profile .info>div p:first-child {
+        margin-top: 1rem;
+    }
+
+    .profile .info>div p {
+        font-size: 0.8rem;
+    }
+
+    .profile .info>div {
+        gap: 0rem;
+        font-size: 1.2rem;
+    }
+
+    .profile .pro>h3 {
+        font-size: 2.1rem;
+    }
+
+    .profile .pro>h2 {
+        font-size: 3.3rem;
+        margin-bottom: 30px;
+    }
+
+    .profile .pro {
+        margin: 0px 70px;
+    }
+
+    .info>div {
+        margin-bottom: 20px;
+    }
+
+    .coding .box {
+        height: 340px;
+    }
+
+    .coding .exbtn {
+        width: 85%;
+        padding: 0px 20px;
+        bottom: 67%;
+    }
+
+    .coding .explainX {
+        font-size: 1.3rem;
+    }
+
+    .coding .site {
+        height: 100%;
+    }
+
+    .coding .exbtn>a {
+        padding: 5px 20px;
+    }
+
+
+    .textbox .button-wrap {
+        width: 100%;
+        left: 0;
+
+    }
+
+    .coding>h2 {
+        margin-bottom: 250px;
+        padding-top: 50px;
+    }
+
+    .coding>h2,
+    .app h2,
+    .detail>h2,
+    .banner>h2 {
+        font-size: 2.6rem;
+    }
+
+    .app .appdi-yoeata {
+        width: 100%;
+    }
+
+    .app .appdi-edu {
+        width: 100%;
+    }
+
+    .app .swiper-pagination-yoeata,
+    .app .swiper-pagination-edu {
+        bottom: 24%;
+    }
+
+    .app h2 {
+        padding-top: 150px;
+    }
+
+    .app .textbox {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .textbox h4 {
+        font-size: 0.75rem;
+        margin-top: 5px;
+    }
+
+    .textbox h3 {
+        font-size: 1.2rem;
+        margin-top: 5px;
+    }
+
+    .textbox .button-wrap>a {
+        width: 130px;
+        height: 40px;
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .detail>h2 {
+        padding-top: 100px;
+    }
+
+    .detail .page .item p {
+        font-size: 0.9rem;
+    }
+
+    .banner h3 {
+        font-size: 33px;
+        padding-bottom: 77px;
+    }
+
+    .box1 {
+        width: 320px;
+        height: 320px;
+    }
+
+    .box2,
+    .box3 {
+        width: 270px;
+        height: 270px;
+    }
+
+    .box4 {
+        width: 340px;
+        height: 340px;
+    }
+
+    .box5 {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* form */
+    header .mailing {
+        width: 95%;
+        top: 2%;
+        right: 2.5%;
+    }
+
+    header .mailing h1 {
+        font-size: 1rem;
+    }
+
+    header .mailing p {
+        font-size: 0.9rem;
+    }
+
+}
