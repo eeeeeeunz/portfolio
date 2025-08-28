@@ -634,8 +634,9 @@
     }
 
     .about h2 {
-        font-size: 4.5rem;
+        font-size: 4rem;
         margin-bottom: 0;
+        padding-bottom: 350px;
     }
 
     .about .product {
@@ -751,6 +752,7 @@
 
     .coding .explainX {
         font-size: 1.3rem;
+        gap: 15px;
     }
 
     .coding .site {
