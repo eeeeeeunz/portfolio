@@ -635,6 +635,7 @@
 
     .about h2 {
         font-size: 4.5rem;
+        margin-bottom: 0;
     }
 
     .about .product {
@@ -695,11 +696,11 @@
     }
 
     .profile .pro>h3 {
-        font-size: 2.1rem;
+        font-size: 1.9rem;
     }
 
     .profile .pro>h2 {
-        font-size: 3.3rem;
+        font-size: 3.2rem;
         margin-bottom: 30px;
     }
 
@@ -710,10 +711,37 @@
     .info>div {
         margin-bottom: 20px;
     }
+    .coding {
+        padding-bottom: 0;
+    }
 
     .coding .box {
         height: 340px;
+        margin-top: -15px;
     }
+
+    .coding .boxA {
+        z-index: 0;
+    }
+
+    .coding .boxB {
+        z-index: 0;
+    }
+
+    .coding .boxC {
+        z-index: 0;
+
+    }
+
+    .coding .boxD {
+        z-index: 0;
+    }
+
+    .coding .boxE {
+        z-index: 0;
+
+    }
+
 
     .coding .exbtn {
         width: 85%;
@@ -741,7 +769,7 @@
     }
 
     .coding>h2 {
-        margin-bottom: 250px;
+        margin-bottom: 50px;
         padding-top: 50px;
     }
 
